@@ -1,0 +1,28 @@
+The control flow of the program follows a sequential order of execution. Here's a breakdown of the sequence in which the code is executed:
+
+User Input:
+The program starts by prompting the user to enter three test scores using the get_grade() function. These inputs are assigned to the variables first_test, second_test, and third_test.
+
+first_test = get_grade()
+second_test = get_grade()
+third_test = get_grade()
+
+
+Function Calls and Output:
+The program then calls the all_As() function to check if all test scores are 100. The result is printed to the console.
+
+all_As(first_test, second_test, third_test)
+
+Next, the calc_average() function is called to calculate the average of the three test scores, and the result is stored in the variable average.
+
+average = calc_average(first_test, second_test, third_test)
+
+Output of Average:
+The program prints the calculated average to the console.
+
+print("Your test average is", average)
+
+Letter Grade:
+Finally, the letter_grade() function is called with the average as an argument, and the corresponding letter grade is printed.
+
+letter_grade(average)
